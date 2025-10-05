@@ -7,7 +7,10 @@ namespace CRUDD
         static void Main(string[] args)
         {
            Usuario usuaio = new Usuario("john_doe");
-            usuaio.MostrarInfo();
+           UsuarioCRUD usuarioCRUD = new UsuarioCRUD();
+              usuarioCRUD.MostrarUsuarios();
+              usuarioCRUD.RegistrarUsuario();
+              usuarioCRUD.MostrarUsuarios();
         }
     }
 }

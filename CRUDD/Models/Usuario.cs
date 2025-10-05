@@ -33,6 +33,7 @@ namespace CRUDD.Models
         {
             Console.WriteLine($"Username: {username}");
             Console.WriteLine($"Email: {email}");
+            Console.WriteLine($"Foto: {foto}");
             Console.WriteLine($"Biografia: {biografia}");
             Console.WriteLine($"Url: {url}");
         }
