@@ -1,4 +1,5 @@
 ﻿using CRUDD.Models;
+using CRUDD.Utils;
 
 namespace CRUDD
 {
@@ -6,11 +7,10 @@ namespace CRUDD
     {
         static void Main(string[] args)
         {
-           Usuario usuaio = new Usuario("john_doe");
-           UsuarioCRUD usuarioCRUD = new UsuarioCRUD();
-              usuarioCRUD.MostrarUsuarios();
-              usuarioCRUD.RegistrarUsuario();
-              usuarioCRUD.MostrarUsuarios();
+           
+            UsuarioUI ui = new UsuarioUI();
+            ui.MostrarMenu();
+
         }
     }
 }
