@@ -51,10 +51,10 @@ namespace CRUDD.Utils
                         Console.ReadLine();
                         break;
                     case 3:
-                        mensaje.MostrarMensaje("OPCIÓN EN CONSTRUCCIÓN");
+                        crud.ActualizarUsuario();
                         break;
                     case 4:
-                        mensaje.MostrarMensaje("OPCIÓN EN CONSTRUCCIÓN");
+                        crud.EliminarUsuario();
                         break;
                     case 5:
                         mensaje.MostrarMensaje("SALIENDO DEL PROGRAMA");
